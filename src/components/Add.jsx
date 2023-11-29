@@ -6,7 +6,6 @@ const Add = () => {
   const [results, setResults] = useState([]);
  const[Quary, setQuary] = useState("");
 
-
 function onChange(e) {
   setQuary(e.target.value);
 
@@ -22,7 +21,7 @@ function onChange(e) {
           <img src="https://image.tmdb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/9ZyAUZrfccsjtDwYgc7yvOBnqM9.jpg" alt="" />
           <div className="titles">
             <h1>Welcome</h1>
-            <h2>Milyonlarca film, TV şovu ve keşfedilecek kişi. Şimdi keşfedin. </h2>
+            <h2>You can add movies to watchlist</h2>
           </div>
           <div className="input-wrapper">
             <input type="text" value={Quary} onChange={onChange} placeholder='Film,Dizi,Kisi Ara...' />
